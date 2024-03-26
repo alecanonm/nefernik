@@ -305,13 +305,13 @@ body {
 .texto {
   color: white;
   text-align: center;
-  font-size: 35px;
+  font-size: 55px;
 }
 
 h1 {
   text-transform: uppercase;
   color: blueviolet;
-  font-size: 75px;
+  font-size: 100px;
 }
 
 .name {
