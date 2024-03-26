@@ -11,8 +11,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
-  width: 580px;
+  height: 800px;
+  width: 600px;
   background: #122139;
   border-radius: 300px 300px 0px 0px;
 }
