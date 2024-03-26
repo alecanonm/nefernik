@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -16,14 +20,6 @@ body {
   background: #122139;
   border-radius: 300px 300px 0px 0px;
 }
-/* 
-.tip_glass {
-  content: "";
-  height: 40px;
-  width: 40px;
-  border: 25px solid #122139;
-  border-radius: 100%;
-} */
 
 .buttom {
   height: 15px;
@@ -315,6 +311,7 @@ body {
 h1 {
   text-transform: uppercase;
   color: blueviolet;
+  font-size: 75px;
 }
 
 .name {
