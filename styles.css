@@ -289,6 +289,13 @@ body {
   }
 }
 
+@keyframes glowing2 {
+  60% {
+    background: transparent;
+    box-shadow: 0px 0px 50px rgba(248, 248, 248, 0.797);
+  }
+}
+
 @keyframes falling {
   20% {
     top: 335px;
@@ -323,15 +330,19 @@ h3 {
   color: rgb(226, 43, 43);
   font-size: 37px;
   text-align: center;
+  background: transparent;
 }
 
 h3 > img {
   height: 30px;
   width: 30px;
+  animation: glowing2 1.5s ease-in-out infinite;
+  border-radius: 6px;
 }
 
 a {
   color: #960a65;
+  background: transparent;
 }
 
 .name {
