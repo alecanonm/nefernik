@@ -311,3 +311,20 @@ body {
   text-align: center;
   font-size: 35px;
 }
+
+h1 {
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.name > img {
+  width: 70px;
+  height: 70px;
+}
