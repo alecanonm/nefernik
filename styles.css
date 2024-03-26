@@ -317,17 +317,17 @@ h1 {
 h3 {
   text-transform: uppercase;
   display: flex;
-  gap: 15px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   color: rgb(226, 43, 43);
-  font-size: 50px;
+  font-size: 37px;
   text-align: center;
 }
 
 h3 > img {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 a {
